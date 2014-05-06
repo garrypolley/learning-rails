@@ -1,6 +1,6 @@
 # learning-rails
 
-Going through the Agile Web Development with Rails 4 book.
+Going through the [Agile Web Development with Rails 4](http://pragprog.com/book/rails4/agile-web-development-with-rails-4) book.
 
 I'll log my thoughts as I go.
 
