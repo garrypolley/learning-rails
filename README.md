@@ -23,3 +23,9 @@ For the most part this chapter is fairly straight forward.  You create a control
 The other cool part from this chapter is the introduction to some of the test helpers.  I'm not sure how I feel about the `assert_select`, but it would be nice for making sure no one breaks your main page or template layouts.  I am conflicted though because I despise selenium testing, so markup based tests don't set well with me.
 
 Overall the last few chapters have shown me it's really easy and fast to get simple apps up and running with Rails. The concept of convention over configuration is making a lot more sense to me now.  I find the ease of creating new workflows great.  Couple that with the nice syntax additions of Rails and Ruby tests, when compared to Python, and I'm starting to like Rails a bit more than I used to like it.
+
+## Chapter 9 (add a shopping cart)
+
+This chapter showed some of the convention over configuration at work.  As of right now the way rails handles sessions and how those sessions wire to controllers seems a bit too magical and forced at the same time.  I like that it's easy to have a `concern` that helps manage session objects.  However, I do not like that I have to give the effort to specify the objects I'll modify in session. This is a nice feature for easily seeing what's going on though, so the value add to readability may be worth the manual effort. The standard boilerplate that pops out is still really awesome for getting stuff done quickly.  `rails generate scaffold Cart` and `rails generate scaffold LineItems # some more options` is awesome.  Makes it so much easier than I'm used to for creating the relationships and default controllers/views I know I want anyway.  Hopefully this book covers session management and how rails does it in more depth later.
+
+Overall still very happy with this Rails exploration.  Excited to see what else this book holds.
